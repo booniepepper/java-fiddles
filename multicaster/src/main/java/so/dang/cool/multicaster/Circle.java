@@ -1,4 +1,4 @@
-package so.dang.cool;
+package so.dang.cool.multicaster;
 
 public class Circle implements Shape {
     Point center;

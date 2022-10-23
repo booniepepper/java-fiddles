@@ -1,4 +1,4 @@
-package so.dang.cool;
+package so.dang.cool.multicaster;
 
 import java.util.Optional;
 

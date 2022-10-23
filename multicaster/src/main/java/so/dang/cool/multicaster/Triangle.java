@@ -1,4 +1,4 @@
-package so.dang.cool;
+package so.dang.cool.multicaster;
 
 public class Triangle implements Shape {
     Point a;

@@ -1,4 +1,4 @@
-package so.dang.cool;
+package so.dang.cool.multicaster;
 
 public record Point(double x, double y) {
     double distanceTo(Point that) {
