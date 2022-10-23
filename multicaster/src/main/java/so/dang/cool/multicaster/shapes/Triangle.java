@@ -1,17 +1,19 @@
-package so.dang.cool.multicaster;
+package so.dang.cool.multicaster.shapes;
+
+import so.dang.cool.multicaster.shapes.misc.Point2d;
 
 public class Triangle implements Shape {
-    Point a;
-    Point b;
-    Point c;
+    Point2d a;
+    Point2d b;
+    Point2d c;
 
-    Triangle(Point a, Point b, Point c) {
+    Triangle(Point2d a, Point2d b, Point2d c) {
         this.a = a;
         this.b = b;
         this.c = c;
     }
 
-    public static Triangle of(Point a, Point b, Point c) {
+    public static Triangle of(Point2d a, Point2d b, Point2d c) {
         return new Triangle(a, b, c);
     }
 

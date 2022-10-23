@@ -1,15 +1,17 @@
-package so.dang.cool.multicaster;
+package so.dang.cool.multicaster.shapes;
+
+import so.dang.cool.multicaster.shapes.misc.Point2d;
 
 public class Circle implements Shape {
-    Point center;
+    Point2d center;
     double radius;
 
-    Circle(Point center, double radius) {
+    Circle(Point2d center, double radius) {
         this.center = center;
         this.radius = radius;
     }
 
-    public static Circle of(Point center, double radius) {
+    public static Circle of(Point2d center, double radius) {
         return new Circle(center, radius);
     }
 
